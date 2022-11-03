@@ -22,7 +22,7 @@
       "required": true,
       "pluginOptions": {}
     },
-    "sectionHeader": {
+    "header": {
       "type": "component",
       "repeatable": false,
       "component": "page.header",
