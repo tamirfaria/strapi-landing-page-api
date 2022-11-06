@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 
 import * as S from './styles'
 
 type Props = {
   id?: string
-  children: React.ReactNode
+  children: ReactNode
 }
 
 const Container: React.FC<Props> = ({ children, id }) => (

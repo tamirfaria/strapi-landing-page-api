@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 
 import * as S from './styles'
 
 type Props = {
   title: string
   subTitle: string
-  children: React.ReactNode
+  children: ReactNode
 }
 
 const CardModule: React.FC<Props> = ({ title, subTitle, children }) => (
